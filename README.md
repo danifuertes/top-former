@@ -1,4 +1,5 @@
-# Solving the Team Orienteering Problem with Transformers
+# TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem
+
 ![](images/python-3.8.svg)
 ![](images/torch-1.13.1.svg)
 ![](images/cuda-11.7.svg)
@@ -8,17 +9,18 @@
 
 ## Paper
 Solve a variant of the Orienteering Problem (OP) called the Team Orienteering Problem (TOP) with a cooperative
-multi-agent system based on Transformer Networks. For more details, please see our [paper](https://doi.org/10.48550/arXiv.2311.18662). If this repository is
+multi-agent system based on Transformer Networks, called TOP-Former. For more details, please see our [paper](https://doi.org/10.48550/arXiv.2311.18662). If this repository is
 useful for your work, please cite our paper:
 
 ```
-@misc{fuertes2023,
-    title={Solving the Team Orienteering Problem with Transformers}, 
+@misc{fuertes2025,
+    title={TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem}, 
     author={Daniel Fuertes and Carlos R. del-Blanco and Fernando Jaureguizar and Narciso García},
-    year={2023},
+    year={2025},
     eprint={2311.18662},
     archivePrefix={arXiv},
-    primaryClass={cs.AI}
+    primaryClass={cs.AI},
+    url={https://arxiv.org/abs/2311.18662}, 
 }
 ``` 
 
