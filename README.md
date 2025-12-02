@@ -13,14 +13,15 @@ multi-agent system based on Transformer Networks, called TOP-Former. For more de
 useful for your work, please cite our paper:
 
 ```
-@misc{fuertes2025,
-    title={TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem}, 
-    author={Daniel Fuertes and Carlos R. del-Blanco and Fernando Jaureguizar and Narciso García},
-    year={2025},
-    eprint={2311.18662},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI},
-    url={https://arxiv.org/abs/2311.18662}, 
+@ARTICLE{fuertes2025,
+  author={Fuertes, Daniel and del-Blanco, Carlos R. and Jaureguizar, Fernando and García, Narciso},
+  title={TOP-Former: A Multi-Agent Transformer Approach for the Team Orienteering Problem}, 
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  volume={26},
+  number={9},
+  pages={13799-13810},
+  year={2025},
+  doi={10.1109/TITS.2025.3566157}
 }
 ``` 
 
@@ -52,7 +53,7 @@ and change the environment conditions (number of agents, graph size, max length,
 at your convenience.
 
 Pretrained weights are available
-[here](https://drive.google.com/file/d/1_X3XLykS6f_ShIJcGOgDJZ-SrElT04_1/view?usp=drive_link). You can unzip the file
+[here](https://upm365-my.sharepoint.com/:u:/g/personal/d_fcoiras_upm_es/ESsdHv4PULNAlN2lqA9bThIBjrzr_rMHZCLqIG7Ar3HkOg?e=ko9IE5). You can unzip the file
 with `unzip` (`sudo apt-get install unzip`):
 
 ```bash
@@ -97,3 +98,4 @@ This repository is an adaptation of
 algorithms (ACO, PSO, and GA) were implemented following the next repositories:
 [robin-shaun/Multi-UAV-Task-Assignment-Benchmark](https://github.com/robin-shaun/Multi-UAV-Task-Assignment-Benchmark)
 and [dietmarwo/Multi-UAV-Task-Assignment-Benchmark](https://github.com/dietmarwo/Multi-UAV-Task-Assignment-Benchmark)
+
